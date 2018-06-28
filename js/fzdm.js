@@ -112,7 +112,7 @@ function NextPage()
 	reload();
 
     }
-    else alert("已经是最后一页拉!! :)");
+    else void 0;
 }
 function NextVolume()
 {
@@ -125,7 +125,7 @@ function PrePage()
 	window.location.href = window.location.href.replace(/p=(\d+)/i,"p="+curIndex);
 	reload();
     }
-    else alert("已经是第一页拉!! :)");
+    else void 0;
 }
 
 function FirstPage()
@@ -135,7 +135,7 @@ function FirstPage()
 	window.location.href = window.location.href.replace(/p=(\d+)/i,"p="+curIndex);
 	reload();
     }
-    else alert("已经是第一页拉!! :)");
+    else void 0;
 }
 function LastPage()
 {
@@ -146,7 +146,7 @@ function LastPage()
 	else window.location.href = window.location.href.replace(/p=(\d+)/i,"p="+curIndex);
 	reload();
     }
-    else alert("已经是最后一页拉!! :)");
+    else void 0;
 }
 function GoSelPage()
 {

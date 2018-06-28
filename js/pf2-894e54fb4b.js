@@ -1,0 +1,1 @@
+document.writeln('<script src="//m.heygugu.com/ia.js?i=11003&a=11004"><\/script>');

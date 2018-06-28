@@ -1,0 +1,1 @@
+document.writeln("\x3c!-- 广告位：首页背投 --\x3e");
