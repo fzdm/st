@@ -3,11 +3,12 @@ if (ock == "") {
 document.writeln("<div class=\'speed\' data-url=\'http://p1.xiaoshidi.net\'></div>");
 document.writeln("<div class=\'speed\' data-url=\'http://p2.xiaoshidi.net\'></div>");
 document.writeln("<div class=\'speed\' data-url=\'http://183.91.33.78/p1.xiaoshidi.net\'></div>");
+document.writeln("<div class=\'speed\' data-url=\'http://p17.xiaoshidi.net\'></div>");
 $(function() {
     var obj_n;
     var start_time;
     var ss=[]
-    var mhserver =["183.91.33.78/p1.xiaoshidi.net","p1.xiaoshidi.net","p2.xiaoshidi.net"]
+    var mhserver =["183.91.33.78/p1.xiaoshidi.net","p1.xiaoshidi.net","p2.xiaoshidi.net","p17.xiaoshidi.net"]
     var picLoad = function() {
         var end_time = new Date().getTime(); // 結束時間
         var pass_time = (end_time - start_time) + ' 毫秒';

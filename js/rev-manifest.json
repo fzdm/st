@@ -8,8 +8,6 @@
   "g.js": "g-2013636a5f.js",
   "html5shiv.min.js": "html5shiv-53d12cf12b.min.js",
   "ispop.js": "ispop-8f62440f3c.js",
-  "jquery-1.9.1.min.js": "jquery-1-df765efe7c.9.1.min.js",
-  "jquery.min.js": "jquery-304e50f9a9.min.js",
   "mmhtop.js": "mmhtop-540fce5dc4.js",
   "mobile.js": "mobile-4f74fa76d4.js",
   "pf-3720a572f8.js": "pf-3720a572f8-b91b426a9c.js",
@@ -27,12 +25,11 @@
   "stat.js": "stat-17e7c5ea5f.js",
   "stat1.js": "stat1-17e7c5ea5f.js",
   "template-web.js": "template-web-1b4038b7c7.js",
-  "toastr.min.js": "toastr-c5627cdfe7.min.js",
   "top.js": "top-d41d8cd98f.js",
   "top1.js": "top1-d41d8cd98f.js",
   "top2.js": "top2-d41d8cd98f.js",
   "u-a35b0e6994.js": "u-a35b0e6994-cf4654f56e.js",
-  "u.js": "u-28ed1b227e.js",
+  "u.js": "u-f8343427a7.js",
   "wei.js": "wei-3d5c5e7f53.js",
   "yui-min.js": "yui-min-1a473df46e.js"
 }
