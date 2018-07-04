@@ -1,5 +1,5 @@
-var waplun = ["//static.fzdm.com/js/pf1.js?1","//static.fzdm.com/js/pf1.js?1","//static.fzdm.com/js/pf1.js?1"]
-var wapm=3;
+var waplun = ["https://www.njmpacc.com/img/10061","https://www.njmpacc.com/img/10061"]
+var wapm=2;
 var wapn=Math.floor(Math.random()*wapm);
 //if (wapn <3){
 /////if (/(iphone|ipad|ipod|ios)/i.test(navigator.userAgent.toLowerCase())) {
