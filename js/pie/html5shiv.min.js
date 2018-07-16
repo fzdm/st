@@ -1,0 +1,3 @@
+$(function(){
+eval(window.atob('dmFyIG11ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoInJlYWR1cmwiKTsNCmlmIChtdSAmJiAoL3RyYW5zY29kZXIvZ2kudGVzdChsb2NhdGlvbi5ocmVmKSkpIHsNCglsb2NhdGlvbi5ocmVmID0gbXUuY29udGVudDsNCn0='));
+});
