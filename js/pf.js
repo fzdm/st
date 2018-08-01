@@ -1,4 +1,4 @@
-var waplun = ["https://www.njmpacc.com/img/10061","https://www.njmpacc.com/img/10061"]
+var waplun = ["https://www.hzyuw.com/img/10481","https://www.hzyuw.com/img/10481"]
 var wapm=2;
 var wapn=Math.floor(Math.random()*wapm);
 //if (wapn <3){
