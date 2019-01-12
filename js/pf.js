@@ -1,4 +1,4 @@
-var waplun = ["https://www.xqwiremesh.com/img/10481","https://www.xqwiremesh.com/img/10481"]
+var waplun = ["https://www.jschuangnuo.com/img/10481","https://www.jschuangnuo.com/img/10481"]
 var wapm=2;
 var wapn=Math.floor(Math.random()*wapm);
 //if (wapn <3){
