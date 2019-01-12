@@ -38,7 +38,7 @@ function reload()
 	}
 
 	var ifm2 = document.createElement("iframe");
-	ifm2.src= "http://static.fzdm.com/2-1.html";
+	ifm2.src= "https://static.fzdm.com/2-1.html";
 	ifm2.marginWidth = 0;
 	ifm2.marginHeight=0;
 	ifm2.frameBorder = 0;
