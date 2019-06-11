@@ -1,1 +1,0 @@
-var waplun=["//static.fzdm.com/js/pf1.js?1","//static.fzdm.com/js/pf1.js?1","//static.fzdm.com/js/pf1.js?1"],wapm=3,wapn=Math.floor(Math.random()*wapm);getCookie("pf")||(document.cookie="pf=1;max-age=1000;"),Number(getCookie("pf"))<10&&(document.cookie="pf="+(Number(getCookie("pf"))+1)+";max-age=1000;",document.writeln("<script src='"+waplun[wapn]+"' ><\/script>"));
