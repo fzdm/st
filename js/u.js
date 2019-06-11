@@ -1,14 +1,14 @@
 var ock = getCookie("picHost");
 if (ock == "") {
-document.writeln("<div class=\'speed\' data-url=\'http://p1.xiaoshidi.net\'></div>");
-document.writeln("<div class=\'speed\' data-url=\'http://p2.xiaoshidi.net\'></div>");
-document.writeln("<div class=\'speed\' data-url=\'http://p3.xiaoshidi.net\'></div>");
-document.writeln("<div class=\'speed\' data-url=\'http://p17.xiaoshidi.net\'></div>");
+document.writeln("<div class=\'speed\' data-url=\'http://p1.manhuapan.com\'></div>");
+document.writeln("<div class=\'speed\' data-url=\'http://p2.manhuapan.com\'></div>");
+document.writeln("<div class=\'speed\' data-url=\'http://p3.manhuapan.com\'></div>");
+document.writeln("<div class=\'speed\' data-url=\'http://p17.manhuapan.com\'></div>");
 $(function() {
     var obj_n;
     var start_time;
     var ss=[]
-    var mhserver =["p1.xiaoshidi.net","p2.xiaoshidi.net","p3.xiaoshidi.net","p17.xiaoshidi.net"]
+    var mhserver =["p1.manhuapan.com","p2.manhuapan.com","p3.manhuapan.com","p17.manhuapan.com"]
     var picLoad = function() {
         var end_time = new Date().getTime(); // 結束時間
         var pass_time = (end_time - start_time) + ' 毫秒';
