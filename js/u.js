@@ -61,7 +61,10 @@ return Math.min.apply({},this) ;
         pic.onerror = picError;
         start_time = new Date().getTime(); // 開始時間
         var m=100;
-        var n=Math.floor(Math.random()*m)
+        var n=Math.floor(Math.random()*m);
+        if(obj.data('url').indexOf("mipengine")!= -1){
+            n = 1;
+        }
         pic.src = obj.data('url') + '/2017/02/148816883875316.jpg?'+n;
         //console.log(ss)
     };
