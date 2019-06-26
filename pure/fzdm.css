@@ -44,7 +44,7 @@ border-bottom: 1px solid #ccc;
 box-shadow: 1px 1px 10px #ddd;
 margin-bottom: 15px;
 }
-#header ul {float: right;*float: none;display:inline;height: 56px;border-radius:5px;background-color: rgba(0,0,0,.2);box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);}
+#header ul {float: right;*float: none;display:inline;height: 56px;border-radius:5px;background-color: rgba(0,0,0,.2);}
 #header li{float: left;*float: none;display:inline;}
 #header li a {
   font-size: 18px;

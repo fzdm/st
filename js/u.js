@@ -1,5 +1,5 @@
 var ock = getCookie("picHost");
-if (ock == "") {
+if (ock == "" || ock == undefined || ock == 'undefined') {
     document.writeln("<div class=\'speed\' data-url=\'http://p1.manhuapan.com\'></div>");
     document.writeln("<div class=\'speed\' data-url=\'http://www-mipengine-org.mipcdn.com/i/p1.manhuap" +
             "an.com/\'></div>");
@@ -71,7 +71,7 @@ if (ock == "") {
             if (obj.data('url').indexOf("mipengine") != -1) {
                 n = 1;
             }
-            pic.src = obj.data('url') + '/2017/02/148816883875316.jpg?' + n;
+            pic.src = obj.data('url') + '/2019/03/080518429922.jpg?' + n;
             //console.log(ss)
         };
         $(function () {
