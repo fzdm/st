@@ -212,19 +212,19 @@ input {padding: 6px;border: 1px solid #ccc;}
 .button-secondary {
 	background: rgb(66, 184, 221); /* this is a light blue */
 }
-@media (min-width: 319px) and (max-width:359px){
+@media (min-width: 185px) and (max-width:318px){
     .round {
-width: 80px;
+			width: 39%;
 }
  }
- @media (min-width:360px) and (max-width: 399px) {
+ @media (min-width:319px) and (max-width: 449px) {
     .round {
-width: 105px;
+width: 27%;
 }  
  }
- @media (min-width:400px) and (max-width: 415px) {
+ @media (min-width:450px) and (max-width: 600px) {
 .round {
-width: 80px;
+width: 20%;
 } 
 .pure-menu li a {
     padding: 15px 12px;
