@@ -8,7 +8,6 @@ function testing() {
         <div class=\'speed\' data-url=\'http://www-mipengine-org.mipcdn.com/i/p1.manhuapan.com/\'></div>
         <div class=\'speed\' data-url=\'http://p5.manhuapan.com\'></div>
         <div class=\'speed\' data-url=\'http://p2.manhuapan.com\'></div>
-        <div class=\'speed\' data-url=\'http://p3.manhuapan.com\'></div>
         <div class=\'speed\' data-url=\'http://p17.manhuapan.com\'></div>
     `;
         $(function () {
@@ -19,7 +18,6 @@ function testing() {
                 "p1.manhuapan.com",
                 "www-mipengine-org.mipcdn.com/i/p1.manhuapan.com",
                 "p2.manhuapan.com",
-                "p3.manhuapan.com",
                 "p5.manhuapan.com",
                 "p17.manhuapan.com"
             ]
