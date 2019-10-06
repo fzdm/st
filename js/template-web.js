@@ -23,7 +23,7 @@ Promise.all([
         let blob = new Blob([newtmp], {
             type: 'text/html'
         });
-        caches.open("manhua").then(function (cache) {
+        caches.open("v1").then(function (cache) {
             cache.put(url, new Response(
                 blob, {
                     headers: {

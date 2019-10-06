@@ -16,7 +16,9 @@
 #header ul {
     top: 8px;
 }
-
+#content {
+    margin-top: 60px;
+}
 .pure-menu.pure-menu-open,
 .pure-menu.pure-menu-horizontal li .pure-menu-children {
     text-align: left;
