@@ -1,14 +1,14 @@
 var mypics =
   [{
-    img: "https://349upload.3a4b5c.com/data/upload/narutoads/640X150/ad_44.jpg",
-    url: "https://h5.3a4b5c.com/channel/index/channel_id/1/page/1?aid=44"
+    img: "https://static.fzdm.com/114/20762ef529853be7.jpg",
+    url: "https://m.dingdingyuedu.com/bejita.html"
   },
   {
-    img: "https://349upload.3a4b5c.com/data/upload/narutoads/640X150/ad_45.jpg",
-    url: "https://h5.3a4b5c.com/channel/index/channel_id/1/page/1?aid=45"
+    img: "https://static.fzdm.com/114/20762ef529853be7.jpg",
+    url: "https://m.dingdingyuedu.com/bejita.html"
   }, {
-    img: "https://349upload.3a4b5c.com/data/upload/narutoads/640X150/ad_58.gif",
-    url: "https://h5.3a4b5c.com/channel/index/channel_id/1/page/1?aid=58"
+    img: "https://static.fzdm.com/114/20762ef529853be7.jpg",
+    url: "https://m.dingdingyuedu.com/bejita.html"
   }
   ];
 var myrand = Math.round(Math.random() * 2);
