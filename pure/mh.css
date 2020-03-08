@@ -6,7 +6,7 @@
 }
 
 .logo img {
-    height: 63px
+    height: 61px
 }
 
 #header {
@@ -26,6 +26,13 @@
     background: none;
     /* border: 1px solid #b7b7b7; */
 }
+@media (min-width: 300px) and (max-width:420px) {
+    h4 {
+        margin-right: 3px;
+    }
+    #header{position: fixed;z-index: 1;}
+    #weizhi{margin-top: 45px;}
+}
 
 @media (min-width: 319px) and (max-width:359px) {
     .pure-menu li a {
@@ -33,10 +40,6 @@
     }
     #header li a {
         font-size: 13px;
-    }
-    .logo img {
-        width: 177px;
-        height: 61px;
     }
 }
 
@@ -47,10 +50,6 @@
     #header li a {
         font-size: 14px;
     }
-    .logo img {
-        width: 180px;
-        height: 61px;
-    }
 }
 
 @media (min-width:400px) and (max-width: 415px) {
@@ -60,10 +59,6 @@
     #header li a {
         font-size: 16px;
     }
-    .logo img {
-        width: 180px;
-        height: 61px;
-    }
 }
 
 h4 {
@@ -71,8 +66,3 @@ h4 {
     margin-right: 100px;
 }
 
-@media (min-width: 300px) and (max-width:420px) {
-    h4 {
-        margin-right: 3px;
-    }
-}
