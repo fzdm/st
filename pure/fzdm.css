@@ -8,7 +8,8 @@ a:visited {
 a:link,a:active,a:visited{text-decoration:none;}
 a:hover {
 	color:#990000;
-	text-decoration:none
+	text-decoration:none;
+	transition: .15s ease-in-out;
 }
 
 ul,li {
@@ -56,7 +57,8 @@ margin-bottom: 15px;
 	margin-top: 5px;
 	color:#fff;
 	border-radius: 3px;
-    background-color: rgba(255, 153, 0, 0.85);
+		background-color: rgba(255, 153, 0, 0.85);
+		transition: .25s ease-in-out;
 }
 #content,#new,#news,#mhnew,#me,#newsa,#newtop,#homenews,#shoulu,#homepic,#homehot,#xinpinglun {
     margin:3px;
@@ -135,12 +137,20 @@ left:1px;
 	padding:11px;
 }
 
-.round a:link,.round a:visited,.round a:hover,.round a:active {
+.round a:link,.round a:visited,.round a:active {
 	color:#ff5500;
 	font-size:15px;
 	text-indent:2em;
-
 }
+.round a:hover{
+	color:#990000;
+}
+.round:hover {
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	transition: .35s ease-in-out;
+}
+
 .round li, #login li a:hover, .title, h2,#usermenu .check a {font-weight: bold}
 .round img,.sortround img {
 	position:relative;
