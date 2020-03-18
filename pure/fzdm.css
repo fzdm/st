@@ -316,6 +316,9 @@ input {padding: 6px;border: 1px solid #ccc;}
 .back {background: white; color:  #555;text-align: center}
  
 @media (prefers-color-scheme: dark) {
+	:root {
+    filter: grayscale(20%);
+	}
   body {background:  #222; color: white;}
   a {
 		color:#eee;
