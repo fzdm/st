@@ -15,7 +15,7 @@ function testing() {
                         t[autourl[j]] = (new Date()) - t[autourl[j]];
                         if (jump) {
                             jump = 0;
-                            addCookie("picHost", autourl[j].replace("http://", ""), 12);
+                            addCookie("picHost", autourl[j].replace("http://", ""), 24*30);
                         }
                     }
                 })(i);
