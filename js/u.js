@@ -5,8 +5,8 @@ function testing() {
         autourl[1] = "http://p1.manhuapan.com";
         autourl[2] = "http://p5.manhuapan.com";
         autourl[3] = "http://p17.manhuapan.com";
-        autourl[4] = "http://www-mipengine-org.mipcdn.com/i/p2.manhuapan.com";
-        autourl[5] = "http://p2.manhuapan.com";
+        autourl[4] = "http://www-mipengine-org.mipcdn.com/i/p3.manhuapan.com";
+        autourl[5] = "http://p4.manhuapan.com";
         (function () {
             for (var i = 1; i < autourl.length; i++) {
                 var img = new Image;
