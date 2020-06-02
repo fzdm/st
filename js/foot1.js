@@ -1,1 +1,0 @@
-document.writeln('<iframe src="https://static.fzdm.com/2-1.html" width="730" height="90" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>');

@@ -1,1 +1,0 @@
-document.writeln("\x3c!-- 广告位：漂浮 --\x3e");

