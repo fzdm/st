@@ -6,8 +6,7 @@ function testing() {
         autourl[2] = "http://p5.manhuapan.com";
         autourl[3] = "http://p17.manhuapan.com";
         autourl[4] = "http://www-mipengine-org.mipcdn.com/i/p3.manhuapan.com";
-        autourl[5] = "http://p4.manhuapan.com";
-        autourl[6] = "http://p6.manhuapan.com";
+        autourl[5] = "http://p6.manhuapan.com";
         (function () {
             for (var i = 1; i < autourl.length; i++) {
                 var img = new Image;
@@ -16,7 +15,7 @@ function testing() {
                         t[autourl[j]] = (new Date()) - t[autourl[j]];
                         if (jump) {
                             jump = 0;
-                            addCookie("picHost", autourl[j].replace("http://", ""), 24*30);
+                            addCookie("picHost", autourl[j].replace("http://p5", "https://p5"), 24*30);
                         }
                     }
                 })(i);
