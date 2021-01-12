@@ -19,6 +19,7 @@ function testing() {
                         }
                     }
                 })(i);
+                img.referrerPolicy = 'no-referrer';
                 img.src = autourl[i] + "/2019/03/080518429922.jpg?" + Math.floor((Math.random() * 10) + 1);
                 t[autourl[i]] = (+new Date());
             }
