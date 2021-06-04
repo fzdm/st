@@ -1,13 +1,13 @@
 var mypics =
   [{
-    img: "https://static.fzdm.com/114/20762ef529853be7.jpg",
+    img: "https://static.fffdm.com/114/20762ef529853be7.jpg",
     url: "https://m.dingdingyuedu.com/bejita.html"
   },
   {
-    img: "https://static.fzdm.com/114/20762ef529853be7.jpg",
+    img: "https://static.fffdm.com/114/20762ef529853be7.jpg",
     url: "https://m.dingdingyuedu.com/bejita.html"
   }, {
-    img: "https://static.fzdm.com/114/20762ef529853be7.jpg",
+    img: "https://static.fffdm.com/114/20762ef529853be7.jpg",
     url: "https://m.dingdingyuedu.com/bejita.html"
   }
   ];

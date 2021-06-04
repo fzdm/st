@@ -1,7 +1,7 @@
 //document.writeln('<script src="https://s16.cnzz.com/stat.php?id=3219973&web_id=3219973" language="JavaScript"></script>');
 var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-2084845-1']);
-  _gaq.push(['_setDomainName', 'fzdm.com']);
+  _gaq.push(['_setDomainName', 'fffdm.com']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -21,13 +21,13 @@ $("#fzdmcom").css({"background-color": "black"});
 }
 
 $('a.bg').click(function() {
-$.cookie('bg', '1',{ expires: 365, path: '/' ,domain: 'fzdm.com'});
+$.cookie('bg', '1',{ expires: 365, path: '/' ,domain: 'fffdm.com'});
 $("body").css({"background":"black",color: "#fff"});
 $("a").css({color: "#999"});
 $("#share a").css({color: "#fff"});
 });
 $('a.bg1').click(function() {
-$.cookie('bg', null,{path: '/' ,domain: 'fzdm.com'});
+$.cookie('bg', null,{path: '/' ,domain: 'fffdm.com'});
 $("body").css({"background":"#fff",color: "#333"});
 $("a").css({color: "#333"});
 $("#share a").css({color: "#333"});
