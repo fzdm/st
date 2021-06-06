@@ -38,7 +38,7 @@ ul,li {
 	padding: 15px 9px;
 	font-weight:500;
   }
-#header{background-image: url(https://static.fzdm.com/css/topbg.gif);}
+#header{background-image: url(https://static.fffdm.com/css/topbg.gif);}
 #header {
 width: 100%;
 border-bottom: 1px solid #ccc;
@@ -107,7 +107,7 @@ left:1px;
   position: absolute;
   right: 0px;
 }
-.focus-cat a, .focus-cat a.last-cat, .focus-cat a.selected, .index-item .more a, .index-item .more a:hover, .rank-num span,.rank-bd span,.rank-bd .hot{ background:url(https://static.fzdm.com/css/focus.png) no-repeat;}
+.focus-cat a, .focus-cat a.last-cat, .focus-cat a.selected, .index-item .more a, .index-item .more a:hover, .rank-num span,.rank-bd span,.rank-bd .hot{ background:url(https://static.fffdm.com/css/focus.png) no-repeat;}
 /* focus */
 .focus-cat{line-height:33px; padding-bottom:4px;  overflow:hidden;}
 .focus-cat li, .focus-list li{ float:left;*float: none;width: 30%;}
