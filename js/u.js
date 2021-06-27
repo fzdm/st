@@ -6,7 +6,7 @@ function testing() {
         autourl[2] = "http://p5.fzacg.com";
         autourl[3] = "http://p17.fzacg.com";
         autourl[4] = "http://www-mipengine-org.mipcdn.com/i/p1.fzacg.com";
-        autourl[6] = "http://p6.fzacg.com";
+        autourl[5] = "http://p6.fzacg.com";
         (function () {
             for (var i = 1; i < autourl.length; i++) {
                 var img = new Image;
