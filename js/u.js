@@ -2,11 +2,11 @@ function testing() {
     var ock = getCookie("picHost");
     if (ock == "" || ock == undefined || ock == 'undefined') {
         var jump = 1, t = {}, autourl = new Array();
-        autourl[1] = "http://p1.manhuapan.com";
-        autourl[2] = "http://p5.manhuapan.com";
-        autourl[3] = "http://p17.manhuapan.com";
-        autourl[4] = "http://www-mipengine-org.mipcdn.com/i/p3.manhuapan.com";
-        autourl[5] = "http://p6.manhuapan.com";
+        autourl[1] = "http://p1.fzacg.com";
+        autourl[2] = "http://p5.fzacg.com";
+        autourl[3] = "http://p17.fzacg.com";
+        autourl[4] = "http://www-mipengine-org.mipcdn.com/i/p1.fzacg.com";
+        autourl[6] = "http://p6.fzacg.com";
         (function () {
             for (var i = 1; i < autourl.length; i++) {
                 var img = new Image;
