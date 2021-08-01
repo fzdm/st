@@ -11,13 +11,18 @@
 
 #header {
     height: 65px;
+    position: fixed;
+    z-index: 1;
 }
 
 #header ul {
     top: 8px;
 }
 #content {
-    margin-top: 60px;
+    margin-top: 80px;
+}
+#content li {
+    line-height: 25px;
 }
 .pure-menu.pure-menu-open,
 .pure-menu.pure-menu-horizontal li .pure-menu-children {
@@ -27,11 +32,13 @@
     /* border: 1px solid #b7b7b7; */
 }
 @media (min-width: 300px) and (max-width:420px) {
+    h2 {
+        font-size: 14px;
+    }
     h4 {
         margin-right: 3px;
     }
-    #header{position: fixed;z-index: 1;}
-    #weizhi{margin-top: 45px;}
+    #weizhi{margin-top: 55px;}
 }
 
 @media (min-width: 319px) and (max-width:359px) {
@@ -60,6 +67,9 @@
         font-size: 16px;
     }
 }
+
+
+
 
 h4 {
     text-align: right;
