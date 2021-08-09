@@ -23,14 +23,16 @@ Promise.all([
             let newtmp = template.render(tmp, data1);
             console.log
             let blob = new Blob([newtmp], {
-                type: 'text/html'
+                type: 'text/html;charset=utf-8'
             });
             caches.open("manhua").then(function (cache) {
                 cache.put(url, new Response(
                     blob, {
-                    headers: {
-                        "Content-Type": "text/html"
-                    }
+                        "ok":true,
+                        "status" : 200,
+                        headers: {
+                            "Content-Type": "text/html; charset=utf-8"
+                        }
                 }));
             });
         }
