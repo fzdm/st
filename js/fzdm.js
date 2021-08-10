@@ -72,9 +72,13 @@ function addCookie(name, value, expiresHours) {
     if (expiresHours > 0) {
         var date = new Date();
         date.setTime(date.getTime() + expiresHours * 3600 * 1000);
-        cookieString = cookieString + ";path=/;expires=" + date.toGMTString()+";domain=fffdm.com";
+        if(document.domain === 'localhost') {
+            cookieString = cookieString + ";path=/;expires=" + date.toGMTString()+";";
+        }else{
+            cookieString = cookieString + ";path=/;expires=" + date.toGMTString()+";domain=fffdm.com";
+        }
+        document.cookie = cookieString;
     }
-    document.cookie = cookieString;
 }
 function getCookie(name) {
     var strCookie = document.cookie;
