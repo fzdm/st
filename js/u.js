@@ -1,6 +1,6 @@
 function testing() {
     var ock = getCookie("picHost");
-    if (ock == "" || ock == undefined || ock == 'undefined') {
+    if (ock == "" || ock == "0" || ock == undefined || ock == 'undefined') {
         var jump = 1, t = {}, autourl = new Array();
         autourl[1] = "http://p1.fzacg.com";
         autourl[2] = "http://p5.fzacg.com";
