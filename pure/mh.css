@@ -17,15 +17,15 @@
 
 #header ul {
   top: 8px;
+  right: 0px;
 }
-#content {
-  margin-top: 80px;
+
+#main {
+  padding-top: 90px;
 }
+
 #content li {
   line-height: 25px;
-}
-#weizhi {
-  margin-top: 65px;
 }
 .pure-menu.pure-menu-open,
 .pure-menu.pure-menu-horizontal li .pure-menu-children {
@@ -40,9 +40,6 @@
   }
   h4 {
     margin-right: 3px;
-  }
-  #weizhi {
-    margin-top: 55px;
   }
 }
 
